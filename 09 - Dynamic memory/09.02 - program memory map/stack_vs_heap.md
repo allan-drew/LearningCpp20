@@ -10,11 +10,11 @@ Real Memory (RAM) x Virtual memory (0 ~ 2^n - 1)
 
 The entire program is not loaded in real memory by the CPU and MMU. Only parts that are about to be executed are loaded. Making effective use of real memory, a valuable and lacking resource. 
 
-The memory map is a standard format defined by the OS. All programs written for that OS must conform to it. It's usually divided into some sections.
-System; Stack; Heap; Data; Text
-    Stack --> store local variables (a, b, c...), function calls,...
-    Heap --> Additional memory that can be queried for at run time
-    Text --> load the actual binary of our program. So the cpu can execute it
+The memory map is a standard format defined by the OS. All programs written for that OS must conform to it. It's usually divided into some sections.  
+System; Stack; Heap; Data; Text  
+    Stack --> store local variables (a, b, c...), function calls,...  
+    Heap --> Additional memory that can be queried for at run time  
+    Text --> load the actual binary of our program. So the cpu can execute it  
 
 
 ### STACK x HEAP:
