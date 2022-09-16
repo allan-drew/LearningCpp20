@@ -19,14 +19,14 @@ System; Stack; Heap; Data; Text
 
 ### STACK x HEAP:
 
-Stack : 
-    * Memory is finite 
-    * The developer isn't in full control of the memory lifetime
-    * Lifetime is controlled by the scope mechanism
+**Stack :**     
+    *Memory is finite   
+    *The developer isn't in full control of the memory lifetime  
+    *Lifetime is controlled by the scope mechanism  
 
-Heap : 
-    * Memory is finite
-    * The developer is in full control of when memory is allocated and when it's released 
-    * Lifetime is controlled explicitly through 'new' and 'delete' operators (developer is in full control of when the variable comes to life and when the variable dies)
+**Heap :**   
+    *Memory is finite  
+    *The developer is in full control of when memory is allocated and when it's released   
+    *Lifetime is controlled explicitly through 'new' and 'delete' operators (developer is in full control of when the variable comes to life and when the variable dies)  
 
 
