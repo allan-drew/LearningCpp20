@@ -31,8 +31,8 @@ int main() {
 
 */
 
-    enterIntoClub ( 25 );
-    enterIntoClub ( 15 );
+    enterIntoClub ( 25 ); // What you pass to the function when you call it is an argument
+    enterIntoClub ( 15 ); // What you pass to the function when you call it is an argument
 
 
     return 0;
